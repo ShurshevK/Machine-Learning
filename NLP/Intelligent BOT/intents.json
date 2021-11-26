@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["hello", "hey", "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+     
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+     
+    },
+    {"tag": "age",
+     "patterns": ["how old", "how old is kirill", "what is your age", "how old are you", "age?"],
+     "responses": ["I am 26 years old!", "26 years young!"]
+     
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name", "Who are you?"],
+     "responses": ["You can call me BOT.", "I'm Kirill, Alex and Bairs BOT!", "I'm BOT for Discord."]
+     
+    },
+    
+    
+    {"tag": "activity",
+    "patterns": ["What are you doing", "Whats up", "what r u doing", "how are u" ],
+    "responses": ["just chilling, bro", "playing codm", "programming, bro"]
+
+    },
+
+    {"tag": "joke",
+    "patterns": ["Tell me the joke", "Say something funny", "I want to hear the joke", "Tell me something funny"],
+    "responses": ["I am sleeping with your mom", "Bair likes dicks"]
+    }
+]
+}
